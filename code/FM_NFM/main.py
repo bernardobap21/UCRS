@@ -45,7 +45,7 @@ parser.add_argument("--optimizer",
     help="optimizer option: 'Adagrad', 'Adam', 'SGD', 'Momentum'")
 parser.add_argument("--data_path",
     type=str,
-    default ="/root/UCRS/data",
+    default ="/./data",
     # default="/storage/wjwang/filter_bubbles/data/",
     help="load data path")
 parser.add_argument("--model_path", 
